@@ -1,4 +1,9 @@
 package com.epam.hibernate.dto;
 
-public record ChangePasswordRequest() {
-}
+import jakarta.validation.constraints.NotBlank;
+
+public record ChangePasswordRequest(
+        @NotBlank String username,
+        @NotBlank String oldPassword,
+        @NotBlank String newPassword
+) {}

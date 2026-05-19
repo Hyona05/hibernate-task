@@ -1,4 +1,6 @@
 package com.epam.hibernate.dto;
 
-public class CredentialsResponse {
-}
+public record CredentialsResponse(
+        String username,
+        String password
+) {}
