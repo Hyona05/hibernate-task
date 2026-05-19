@@ -101,5 +101,7 @@ H2 Database
 
 # Swagger/OpenAPI documentation: http://localhost:8080/swagger-ui/index.html
 # H2 in-memory database console: http://localhost:8080/h2-console
-
+JDBC URL: jdbc:h2:mem:hibernate_task
+User Name: sa
+Password: root123
 
